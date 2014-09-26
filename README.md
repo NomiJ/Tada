@@ -2,7 +2,7 @@ Yada
 ====
 In hebrew it means "To Know" presonally and closely. 
 
-Yada in its current phase is no more than an idea of an IM which can chrispify the internet chat messages and calls towards professional communication for business or work purposes. 
+Yada in its current phase is no more than an idea of an IM which can orient the  internet communication ( chat messaging and audio/video calls ) towards professional communication for business or work purposes and thus improving the productivity.
 
 In vague it should allow
 
@@ -19,3 +19,5 @@ In vague it should allow
 10.  Communication over WebSockets 
 11.  Role base communication - Phase 2
 12.  UI supports for collapsable topics - Phase init
+13.  Global Gmt time calculation and conversion of meeting times.
+14.  SCRUM notes
