@@ -7,7 +7,7 @@ Yada in its current phase is no more than an idea of an IM which can orient the 
 In vague it should allow
 
 
-1.  Defination of Teams - Phase 2
+1.  Defination of Teams  
 2.  Task base communication. 
 3.  Announcement of meetings.
 4.  Live minutes of meetings.
@@ -17,7 +17,8 @@ In vague it should allow
 8.  LinkedIn Contacts
 9.  Authentication via LinkedIn
 10.  Communication over WebSockets 
-11.  Role base communication - Phase 2
-12.  UI supports for collapsable topics - Phase init
+11.  Role base communication  
+12.  UI supports for collapsable topics  
 13.  Global Gmt time calculation and conversion of meeting times.
 14.  SCRUM notes
+15.  Internationalization and auto translation on multiple channels
