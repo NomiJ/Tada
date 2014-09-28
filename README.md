@@ -2,23 +2,61 @@ Yada
 ====
 In hebrew it means "To Know" presonally and closely. 
 
+
+Introduction
+==============
+
 Yada in its current phase is no more than an idea of an IM which can orient the  internet communication ( chat messaging and audio/video calls ) towards professional communication for business or work purposes and thus improving the productivity.
 
-In vague it should allow
+Yada is business communicator for SMBs to manage (projects and its related tasks and meetings) with (teams and clients) easily.
 
 
-1.  Defination of Teams  
-2.  Task base communication. 
-3.  Announcement of meetings.
-4.  Live minutes of meetings.
-5.  Emailing of mom to managment / team
-6.  Sending emails of tasks after the meeting.
-7.  Asana or better project management tool Integration. 
-8.  LinkedIn Contacts
-9.  Authentication via LinkedIn
-10.  Communication over WebSockets 
-11.  Role base communication  
-12.  UI supports for collapsable topics  
-13.  Global Gmt time calculation and conversion of meeting times.
-14.  SCRUM notes
-15.  Internationalization and auto translation on multiple channels
+Features
+==========
+
+*  Audio/Video/Text Chat
+*  Chat History 
+*  Defination of Company
+*  Defination of Teams  
+*  Defination of Tasks
+*  Defination of Projects
+*  Announcement of meetings
+*  Note minutes of meetings
+*  Emailing of mom to managment / team
+*  Role base communication
+*  UI supports for collapsable topics  
+*  Global Gmt time calculation and conversion of meeting times.
+*  Internationalization and auto translation on multiple channels based on Google Translator [On demand]
+*  Asana or better project management tool Integration. 
+*  LinkedIn Contacts Import
+*  Jira Integration
+*  Company Level Social Feeds
+*  SAAS model?
+
+
+Unique Selling Points /Propositions
+=====================================
+No competitor so far
+
+Technology
+===========
+*  Node.JS/Express
+*  Socket.IO
+*  AngularJS
+*  Cordova
+*  MongoDB
+*  Moongesse
+*  https://modulus.io/
+*  Secure WebSocket/MVC architecture/REST
+*  Cordova
+
+Business Model
+===============
+The product will be sold to a company 
+  - Free for upto 5 user
+  - Packages for SMBs/Enterprise
+  - Monhtly basis billing for a Quarter
+  - Membership Fee/ Advertising / Feature Inlocking/ In-App Purchases / Refferals
+
+Risks/Weeknesses
+=================
