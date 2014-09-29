@@ -32,11 +32,8 @@ Features
 *  Jira Integration
 *  Company Level Social Feeds
 *  SAAS model?
+*  Team / Individual Visibility in Organization.
 
-
-Unique Selling Points /Propositions
-=====================================
-No competitor so far
 
 Technology
 ===========
@@ -58,5 +55,7 @@ The product will be sold to a company
   - Monhtly basis billing for a Quarter
   - Membership Fee/ Advertising / Feature Inlocking/ In-App Purchases / Refferals
 
-Risks/Weeknesses
-=================
+
+Unique Selling Points /Propositions
+=====================================
+* To Lazy to think off
