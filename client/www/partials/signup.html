@@ -1,0 +1,32 @@
+<div class="container">
+    <h1 class="page-header">Sign up</h1>
+
+    <form ng-submit="signup()" class="form-horizontal">
+        <div class="form-group">
+            <label for="user-email" class="col-sm-3 control-label" autofocus>Email</label>
+
+            <div class="col-sm-7">
+                <input type="email" name="email" class="form-control" id="user-email" ng-model="user.email" required placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="user-password" class="col-sm-3 control-label">Password</label>
+
+            <div class="col-sm-7">
+                <input type="password" class="form-control" id="user-password" ng-model="user.password" required placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="user-c-password" class="col-sm-3 control-label">Confirm Password</label>
+
+            <div class="col-sm-7">
+                <input type="password" class="form-control" id="user-c-password" ng-model="user.cPassword" required placeholder="Confirm Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+                <button type="submit" class="btn btn-success">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>

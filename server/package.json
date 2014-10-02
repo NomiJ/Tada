@@ -1,0 +1,25 @@
+{
+    "name": "UserManagmentApp",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node server"
+    },
+    "dependencies": {
+        "express": "~4.2.0",
+        "bcrypt-nodejs": "^0.0.3",
+        "method-override": "^2.2.0",
+        "morgan": "~1.0.0",
+        "errorhandler": "^1.2.0",
+        "cookie-parser": "~1.0.1",
+        "body-parser": "~1.0.0",
+        "nodemailer": "^1.2.2",
+        "mongoose": "~3.8.16",
+        "crypto": "~0.0.3",
+        "jsonwebtoken": "~1.1.1",
+        "socket.io": "~1.1.0",
+        "socketio-jwt": "~2.3.5",
+        "validator": "*",
+        "lusca": "*",
+        "ddos": "*"
+    }
+}

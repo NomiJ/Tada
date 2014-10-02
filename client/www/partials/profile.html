@@ -1,0 +1,92 @@
+<div class="container">
+    <h1 class="page-header">Basic Profile</h1>
+
+    <form ng-submit="updateProfile()" class="form-horizontal">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="form-group center-block text-center">
+                    <img class="img-circle" src="{{user.profile.picture}}" style="width: 140px; height: 140px;" onclick="$('.uploadImg').click()">
+                    <input class="uploadImg hidden" accept="image/*" type="file" onchange="angular.element(this).scope().getPicture(this.files)"/>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Email</label>
+
+                    <div class="col-sm-7">
+                        <p class="form-control-static">{{user.email}}</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="user-name" class="col-sm-2 control-label">Name</label>
+
+                    <div class="col-sm-7">
+                        <input type="text" name="name" class="form-control" id="user-name" ng-model="user.profile.name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Gender</label>
+
+                    <div class="col-sm-7">
+                        <div class="radio">
+                            <label><input type="radio" name="gender" ng-model="user.profile.gender" value="male">Male</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="gender" ng-model="user.profile.gender" value="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="user-location" class="col-sm-2 control-label">Location</label>
+
+                    <div class="col-sm-7">
+                        <input type="text" name="location" class="form-control" id="user-location" ng-model="user.profile.location" placeholder="Location">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-7">
+                        <button type="submit" class="btn btn-success">Update Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <h1 class="page-header">Change Password</h1>
+
+    <form ng-submit="changePassword()" class="form-horizontal">
+        <div class="form-group">
+            <label for="user-password-o" class="col-sm-3 control-label">Old Password</label>
+
+            <div class="col-sm-7">
+                <input type="password" name="password-o" class="form-control" id="user-password-o" ng-model="password.oldPassword" required placeholder="Old Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="user-password-n" class="col-sm-3 control-label" autofocus>New Password</label>
+
+            <div class="col-sm-7">
+                <input type="password" name="password-n" min="4" class="form-control" id="user-password-n" ng-model="password.newPassword" required placeholder="New Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="user-password-c" class="col-sm-3 control-label" autofocus>Confirm Password</label>
+
+            <div class="col-sm-7">
+                <input type="password" name="password-n" class="form-control" id="user-password-c" ng-model="password.confirmPassword" required placeholder="Confirm Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+                <button type="submit" class="btn btn-success">Change Password</button>
+            </div>
+        </div>
+    </form>
+
+    <h1 class="page-header">Delete Account</h1>
+    <div class="col-sm-offset-2">
+        <p class="lead">Are you make sure to delete Account?</p>
+        <button ng-click="removeAccount()" class="btn btn-danger">Delete Account</button>
+    </div>
+    <br/>
+</div>
