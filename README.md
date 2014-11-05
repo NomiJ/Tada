@@ -29,6 +29,7 @@ Features
 *  Internationalization and auto translation on multiple channels based on Google Translator [On demand]
 *  Asana or better project management tool Integration. 
 *  LinkedIn Contacts Import
+*  Generate Private group chat URLs
 *  Jira Integration
 *  Company Level Social Feeds
 *  SAAS model?
