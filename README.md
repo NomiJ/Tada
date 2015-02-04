@@ -1,7 +1,6 @@
-Yada
+Tada
 ====
-In hebrew it means "To Know" presonally and closely. 
-
+Wiki=> (exclamation) or Typically used to indicate an impressive entrance or a dramatic announcement
 
 Introduction
 ==============
