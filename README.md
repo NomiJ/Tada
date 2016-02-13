@@ -13,6 +13,11 @@ Yada is business communicator for SMBs to manage (projects and its related tasks
 Features
 ==========
 
+*  Short Term Contact Management
+*  Meeting Share with External Contacts
+*  RealTime Audio Tagging with Tasks by creating chunks of audio
+*  Table of Contents for the Meeting
+*  WhiteBoard, Screen Sharing
 *  Audio/Video/Text Chat
 *  Chat History 
 *  Defination of Company
