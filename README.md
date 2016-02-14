@@ -5,7 +5,7 @@ Wiki=> (exclamation) or Typically used to indicate an impressive entrance or a d
 Introduction
 ==============
 
-Yada in its current phase is no more than an idea of an IM which can orient the  internet communication ( chat messaging and audio/video calls ) towards professional communication for business or work purposes and thus improving the productivity.
+Yada in its current phase is no more than an idea of an IM which can orient the  internet communication (chat messaging and audio/video calls ) towards professional communication for business or work purposes and thus improving the productivity.
 
 Yada is business communicator for SMBs to manage (projects and its related tasks and meetings) with (teams and clients) easily.
 
@@ -20,13 +20,13 @@ Features
 *  WhiteBoard, Screen Sharing
 *  Audio/Video/Text Chat
 *  Chat History 
-*  Defination of Company
-*  Defination of Teams  
-*  Defination of Tasks
-*  Defination of Projects
+*  Definition of Company
+*  Definition of Teams  
+*  Definition of Tasks
+*  Definition of Projects
 *  Announcement of meetings
 *  Note minutes of meetings
-*  Emailing of mom to managment / team
+*  Emailing of mom to management / team
 *  Role base communication
 *  UI supports for collapsable topics  
 *  Global Gmt time calculation and conversion of meeting times.
@@ -46,10 +46,10 @@ Technology
 *  Socket.IO
 *  AngularJS
 *  Cordova
-*  MongoDB
+*  Mongo DB
 *  Moongesse
 *  https://modulus.io/
-*  Secure WebSocket/MVC architecture/REST
+*  Secure Web Socket/MVC architecture/REST
 *  Cordova
 
 Business Model
@@ -57,10 +57,10 @@ Business Model
 The product will be sold to a company 
   - Free for upto 5 user
   - Packages for SMBs/Enterprise
-  - Monhtly basis billing for a Quarter
+  - Monthly basis billing for a Quarter
   - Membership Fee/ Advertising / Feature Inlocking/ In-App Purchases / Refferals
 
 
 Unique Selling Points /Propositions
 =====================================
-* To Lazy to think off
+* Too Lazy to think off
